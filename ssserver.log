@@ -1,0 +1,1639 @@
+INFO: ShadowsocksR 3.4.0 mod by esdeathlove
+INFO: current process RLIMIT_NOFILE resource: soft 512000 hard 512000
+INFO: loading config from user-config.json
+2019-12-02 10:54:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 10:54:35 INFO     util.py:49 loading libcrypto from libcrypto.so.10
+2019-12-02 10:54:35 INFO     asyncdns.py:324 dns server: [('172.31.0.2', 53)]
+2019-12-02 10:54:35 INFO     asyncdns.py:324 dns server: [('172.31.0.2', 53)]
+2019-12-02 10:54:35 INFO     db_transfer.py:822 db start server at port [1025] pass [J4RMNH] protocol [origin] method [rc4-md5] obfs [plain]
+2019-12-02 10:54:35 INFO     server_pool.py:146 starting server at [::]:1025
+2019-12-02 10:54:35 INFO     server_pool.py:176 starting server at 0.0.0.0:1025
+2019-12-02 10:55:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 10:56:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 10:57:02 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 10:57:02 ERROR    tcprelay.py:1523 exception from ::ffff:221.13.12.191:52644
+2019-12-02 10:57:02 WARNING  common.py:291 unsupported addrtype 100, maybe wrong password or encryption method
+2019-12-02 10:57:02 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 314623972762871d06fd20670198ecfce7ff5db102934a48e47b538c1c5743f857b81f3501cd6c0bb832d35163008d0040143ca12a97b29fa21235a704c3f76f7ff4f12bf1096fb60434b4341f834a2eea42d4fa25a335c7d53ac553fcc0902c5727aa21a0f22d2eb2428fcd4b144256f7c14cb8ce67fad21363f4fdc322b648bd4e8ad9da1144d652f2583d08a679c62bf1c65eb3b8ced79c67d30f4fdcbe5b62090ae34d79f4b5b5398b599e24c8dfb97e72e2a15f9f2c6c3dda23278c03ad857afb8bc59ed0047180c451f77e6b76b34f787842b5 from ::ffff:221.13.12.191:52906 via port 1025
+2019-12-02 10:57:02 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:221.13.12.191:52906
+2019-12-02 10:57:02 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 10:57:02 ERROR    tcprelay.py:1523 exception from ::ffff:221.213.75.12:45006
+2019-12-02 10:57:03 WARNING  common.py:291 unsupported addrtype 67, maybe wrong password or encryption method
+2019-12-02 10:57:03 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data d02ff16965cbdc5b06fd20670198ecfce7ff5db102934a48e47b538c1c5743f857b81f3501cd6c0bb832d35163008d0040143ca12a97b29fa21235a704c33ee17ff4f12bf1096fb60434b4341f834a2eea42d4fa25a335c7d53ac553fcc0902c5727aa21a0f22d2eb2428fcd4b144256f7c14cb8ce67fad21363f4fdc322b648bd4e8ad9da1144d652f2583d08a679c62bf1c65eb3b8ced79c67d30f4fdcbe5b62090ae34d79f4b5b5398b599e24c8dfb97e72e2a15f9f2c6c3dda23278c03ad857afb8bc59ed0047180c451f77e6b76b34f787842b5 from ::ffff:221.213.75.12:45262 via port 1025
+2019-12-02 10:57:03 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:221.213.75.12:45262
+2019-12-02 10:57:10 INFO     tcprelay.py:1901 port 1025 connections up to 25
+2019-12-02 10:57:28 INFO     tcprelay.py:1904 port 1025 connections down to 0
+2019-12-02 10:57:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 10:58:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 10:58:35 INFO     db_transfer.py:791 db stop server at port [1025] reason: config changed!
+2019-12-02 10:58:35 INFO     server_pool.py:225 stopped server at 0.0.0.0:1025 already stop
+2019-12-02 10:58:35 INFO     server_pool.py:249 stopped server at [::]:1025
+2019-12-02 10:58:36 INFO     tcprelay.py:2053 closed TCP port 1025
+2019-12-02 10:58:36 INFO     udprelay.py:947 closed UDP port 1025
+2019-12-02 10:58:38 INFO     db_transfer.py:822 db start server at port [1025] pass [J4RMNH] protocol [origin] method [rc4-md5] obfs [plain]
+2019-12-02 10:58:38 INFO     server_pool.py:146 starting server at [::]:1025
+2019-12-02 10:58:38 WARNING  common.py:334 You did't specify CIDR routing prefix size for 221.213.75.12, implicit treated as 221.213.75.12/32
+2019-12-02 10:58:38 WARNING  common.py:334 You did't specify CIDR routing prefix size for 221.213.75.12, implicit treated as 221.213.75.12/32
+2019-12-02 10:58:38 INFO     server_pool.py:176 starting server at 0.0.0.0:1025
+2019-12-02 10:58:38 WARNING  common.py:334 You did't specify CIDR routing prefix size for 221.213.75.12, implicit treated as 221.213.75.12/32
+2019-12-02 10:59:30 WARNING  common.py:291 unsupported addrtype 83, maybe wrong password or encryption method
+2019-12-02 10:59:30 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 0fd8184fa81bfc7c6197dfab9e71076d0449459886b22fb83afbed15710a213b from ::ffff:171.12.232.174:35540 via port 1025
+2019-12-02 10:59:30 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35540
+2019-12-02 10:59:32 WARNING  common.py:291 unsupported addrtype 178, maybe wrong password or encryption method
+2019-12-02 10:59:32 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 949d49c43bd5ce7d272883beb4a028f3ba1a65f342edd3835257e7a7e32acb8ad1a0e3dcd05837f99b5567e258 from ::ffff:171.12.232.174:35546 via port 1025
+2019-12-02 10:59:32 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35546
+2019-12-02 10:59:33 WARNING  common.py:291 unsupported addrtype 69, maybe wrong password or encryption method
+2019-12-02 10:59:33 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data e110e806f23813470e115560d64c0500c58b10944c9d63aa7d06a753cc8c7540b1591da934da50a024d80f5985 from ::ffff:171.12.232.174:35547 via port 1025
+2019-12-02 10:59:33 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35547
+2019-12-02 10:59:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:00:08 WARNING  common.py:291 unsupported addrtype 164, maybe wrong password or encryption method
+2019-12-02 11:00:08 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data cb8dc2f1d84fc6ff6ba5c2beaf5372d85840672f3dc9fc512afc93c75934ff6078 from ::ffff:171.12.232.174:35636 via port 1025
+2019-12-02 11:00:08 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35636
+2019-12-02 11:00:10 WARNING  common.py:291 unsupported addrtype 48, maybe wrong password or encryption method
+2019-12-02 11:00:10 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data aef3ccf0ff3891c94a9c270d3d2270f2e69472d1348b9292bf8d9415fdd9bdcb95995aabc221352e212ea0a204ee5a60c046cca49c5cf6cd99d1c3c0a8fd4da599a5d70226574e57387a6280fec14c35c10d8c5130c3898db0de244dd81151fd24ef198a4d3afd6a901f7fc81369123c644c586ab645ae57320475ebe628fb6325e3b0f745404ed84dc3468532aee2fb37a07216f0764a10aec9d74379e0ffc77a42adb577f22eab5fd284f8915574f3e4cb055dbc6e472c6efcd80105d998cd7cc918c6eae0d3f0d2bc06cca8483f968809c0f563ddb3c4fea3cfbfcf306ca257a96afc4e2a3c3125cc630ca75373d45a958758d08f033d7d5a7f1c83f73be89a1da0f0c072a1158ad009fe77c9eba6d3180732327cf1b05f122c60dfc129cadcfdd4a9acfe2d46d3416944e882cbdd501c089000f27cfeba4d33acaf106fc98f2bb43276131fc9e329add33bd4e4b36b618963ed62adde571224017d3118fec6a9a69d9599c70e8a140b22ec834f114121d1573124247a8093569734ebf147a114fa69e2b92bd85166517310c553b6481b401a7e7de32e8945ef4e8e9f02352a6cae6e24a53013191103ad4d44dfdfc03cf15437e502d4931c3cd68179423a9c34f8152dcaf109569e0204762ceb811336e7cf7c7560d7e768d81e630e14cacf1061fcd1f908a2f592210c1624caf2906afcdae6c42eb0b9e5df6945cb06aa17872b2c375c4bd645a3f985c7d2bed28ee17ed237578221dbaef29f6afc0591db728f80f5a89e24650b1cba3400386f8bf9f0eddf400e8b9364422d8a0fd6d0c1f13270d90266d4965c5e67e96adbb04a74f27222b001eb59cd5dff35dc7de69d8a1dbd3d97cc3feb84ecba66bcdb821881800eb47e379f311c6c751e01bde7951ba8b2163d15cc0136ce9ea44e3b5d113a2f499a2a372953897a22f5f2e8d03fba128a1aa2cbeb6e271e5fdb0ee1868da4dcee40b07197e39576e96f528d376063c6588f6829dadd5a8a489b65772b0277bf36478b30cdec36b852efaf3bf337d1e767129baee4c4 from ::ffff:171.12.232.174:35649 via port 1025
+2019-12-02 11:00:10 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35649
+2019-12-02 11:00:13 WARNING  common.py:291 unsupported addrtype 145, maybe wrong password or encryption method
+2019-12-02 11:00:13 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 9922074554d604e7ecf839a28e3219a13fcbda827fadd4588b3422c4c3af743baa from ::ffff:171.12.232.174:35655 via port 1025
+2019-12-02 11:00:13 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35655
+2019-12-02 11:00:15 WARNING  common.py:291 unsupported addrtype 245, maybe wrong password or encryption method
+2019-12-02 11:00:15 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data f93ce84ff80231a43de6953ec20c756634a1988a069a473694fab8f7e0fd23fa16 from ::ffff:171.12.232.174:35658 via port 1025
+2019-12-02 11:00:15 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35658
+2019-12-02 11:00:21 WARNING  common.py:291 unsupported addrtype 177, maybe wrong password or encryption method
+2019-12-02 11:00:21 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16d6e7688f79a63c19fc81fd3d8cff46191ffa8a67ffdf39c02d5e993b87f7541fdfaac9008aa7 from ::ffff:171.12.232.174:35681 via port 1025
+2019-12-02 11:00:21 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35681
+2019-12-02 11:00:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:01:17 WARNING  common.py:291 unsupported addrtype 98, maybe wrong password or encryption method
+2019-12-02 11:01:17 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data a00653842e4f3d4845f3e035d923f71bec886cf670e82a1dc06af60756fddb6f21bac7fa9071e0df7487741bc8365862b7e7ee681ee33367c66ad8a5a79a75420b9ed7d020000c7567c73f096cab9f695d57a788e67c1677e7a10ff9bf87cfcec56f657c3ddc752ee5a993ee466adefeb89c7f491b2c38f19145d74914699f3002ee3e2830d0497ebd70edcc3d512e140ae1fed65ed35024e2273c744180eb40880432262215426585f0b66a00d73d2c1fd4cf373bfa2ec71ddcdbe6221c6adbd62d56ade9dafc89245707d4c86cb75431465de2e5877446bf4582194d from ::ffff:171.12.232.174:35825 via port 1025
+2019-12-02 11:01:17 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35825
+2019-12-02 11:01:18 WARNING  common.py:291 unsupported addrtype 69, maybe wrong password or encryption method
+2019-12-02 11:01:18 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 2f72851f4862a0738a9b1deda4e4e0ca4aa03e250a2e6d24af44c9107021e4d5871366faef7747 from ::ffff:171.12.232.174:35829 via port 1025
+2019-12-02 11:01:18 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35829
+2019-12-02 11:01:28 WARNING  common.py:291 unsupported addrtype 183, maybe wrong password or encryption method
+2019-12-02 11:01:28 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 373b38b0d0f2758f5c23a2466216ba5ccbeebd3c3c3305fadfe124270dc28034a9ffea9ad928a7294859947f3ba29e7534cdfba05fa2a5a65ef3c7b3f65b6af040bccc3273179704a72b2fa046590076a54f54956ef4c4800b319975aaf8543c4a40ff01ade3e8fa14529b0f623a72f9ac5e29ba7b77e434d6f9d6ef38b5a15f22513fe218560376995fcccbccd0cb1acc21b107ebde22f5d7827f6bb1bfa2654eb46537639a5839ce6120c985e3127bd0bf53c8f690483daeb0d7bf66fdd5f5b4a0d4fbf4b93a6c2e1b66a4263201045267e75c3e3ae6d88633f14a8f57665fd3da727f379b97b326b789c60f8c380e9df22b3c4e6888 from ::ffff:171.12.232.174:35838 via port 1025
+2019-12-02 11:01:28 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35838
+2019-12-02 11:01:33 WARNING  common.py:291 unsupported addrtype 37, maybe wrong password or encryption method
+2019-12-02 11:01:33 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 6ee808a2236e87cb25e16ba68917da20a623cc85edd61212d9de41044d2c22d758a7d6762f5e12ec8006ccd93126ce4b5635a13133de96d87472cef581ed09bad652203019dc3b45fa2df77d85834ab72b0717679ac0e7e4ef6d81eb967e9ecbbce2eb18d55dcd5e0c750271b03f5176d477c72ee53a866423cf3b520d20b9a141437364554e953c30cc5abb311606d7a7f259dfc72a37f54e90c157778d5ede49c0dba9784f6915fefb7ed5a5b5d7c1af47bed983d18a26f4f474a680f66bc8b6061d55e1c858511760621ccc558c2be06ac7de03830df2c7070a8cab073728e17f80fc8ab1bbba9c08d9441307f09ef71b4da5fbaa8b0e249a4f43b27c8063c6c96f3cd5a2c6b0a82e0e98d36a0db414f1530c69f922fdf1653a51080f3a4af69525c4d50df53b813b6ba2f36e630379c4b25be4526445f2687770909b2359ed5483456b45d6a3eb90e493d517656a314b8a20b4d79c318fe4b84d86856be6a3b3853d6929d0c994c10c9bb519c7a6982fcca03b492864ca9e41bd006692b62064812f66196b724cc4e0e877f15681c13b8f934a6ab692ff046bcc48d909f8f97b593e2b195e9f31b264ff602e29b81194d03f6f275e14af75699c06c25ba3d68623671413c4c652814857df1ce43d73df7e52077fe001a106102e705e77089a658969321cec3d32f0affc20c13783dd45492a9d220a0189a3e84dcee1dead71f50192aa01105d1586b773c471a835f2febb673713301a093a3a06ee93622671be0c4889d81dc2a1a710e41e1c0e9af59febcbb36f19fb864a6a161c2610d6b2a5ee5cd72f444ca288edd2dc31bb3837ddfe3851b9cce9ac93188bd49d3845b06f15c68d96e6a6e0b2b46aae7085bdfeb22013a11f571550c3b0b3df80223caec529769c002de37cdafe504d0dddc97e2c8fa130ccbf39ffbac04e6c4bfd5e6e5afe74c2b52f06dcb756e08056731e23980a77758d6306cc93cee35036afd36efeb4535be5c68403360839ddd0d408c6926b95a7c762819060ab6e5b2c4b01ac45787fda01d570112bc5352a73570d4ded8585fbfc5de6dc264f989d983333ae32dcddafb9000311b0dcce8bea689e569eb0823e7ff243d4aa1aabdf0e4f30cfb231bb52493207a317e6f2819844192772ca82f75fe7f98f7c409e9bff6672ed87199b019155d4d263e9efc4557c0fe892de98fd490670890ee3a91da86ef3f9d86ae2de330257229f4f03848b76fc88a942a703e0e57584cf90691d3dd99f06486c3dfb91ea6e906c79415875478f96737887b27a3204189ce44bdf37598284af7e48541407f2a2121097f87844cdd39c85696f5d143412c48e5c629a334d6bcc8af7c3acb9900d8b2dfd7225faa83e98f544eddfcdf063fe5053235a4c76d6bffc0086f8f39157065f56f458b313e85d9c188e2d87b1379e6fc79add6bf28debd1de690ef0529c4fe4c13559d280bf4130c71341288e7ed3904aaffecfba5fb10d7e4108f9de5281f34224e03dfba5d40e718ed5fa71c41f468c0f8892018db57e0ee254137cea8701d7c306bdfd625045f89ede922920951d4da5c610500e64495c4b42a0f95bee367ecc4d9eae1b726d50e9ff7f828a7a8d001a7e99240ae73c0470791bc05e8489577e8fa5f44e77ee00eb7c643659a6d2e7d195f4518ac0aca210b5f4058d2e407dd3597ebb3e27835f653ccbd4567a77ab39bcda3eef1722833fc3c3b2334f12e3af7dd4e9ab2da63f0d71b877efae252869ff3d19 from ::ffff:171.12.232.174:33802 via port 1025
+2019-12-02 11:01:33 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:33802
+2019-12-02 11:01:34 WARNING  common.py:291 unsupported addrtype 230, maybe wrong password or encryption method
+2019-12-02 11:01:34 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 3b49c2b78195def72f82e1b0d381409184ec038ab9880c05025676ffb5567589d1a6d4734a6cc2bcfc5644ea9f4ff2b69209b346cac867ddde4390c4a200ce49e30d297464baa03d2318cfa9c3d664278a216c2ee499b27a8e359433ceeb5687a5f1b30513b768dde411b70000049d4112ec13041240832d4a53e384b5fdcd5e9c51c8e4a2a2470962bc709f373cbf836ea8efb90f064c8a88a83c649aa6ebcbd38a1b5f4999b0f4d0c127106f70e0f39317f26f2dff030d65bc59bd814409d9125727ea178aa97a3ac2d88439fa99c4309f91e91250efd8a4c9cc0d3ccda539aee865b48a775c5191e9bed0a8a45098ecc48147860d77690f3b0016dd6834fac4 from ::ffff:171.12.232.174:33807 via port 1025
+2019-12-02 11:01:34 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:33807
+2019-12-02 11:01:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:01:37 WARNING  common.py:291 unsupported addrtype 165, maybe wrong password or encryption method
+2019-12-02 11:01:37 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 9ee5a4646c6a9aa671910ab7b1393afb3aeb13ee49209f523ee3aee6 from ::ffff:171.12.232.174:33819 via port 1025
+2019-12-02 11:01:37 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:33819
+2019-12-02 11:02:34 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:02:38 WARNING  common.py:291 unsupported addrtype 208, maybe wrong password or encryption method
+2019-12-02 11:02:38 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 3251b22ea089090adf12808c25007f6196e1110d4634fb58c2b61c6b5fa05344 from ::ffff:171.12.232.174:33910 via port 1025
+2019-12-02 11:02:38 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:33910
+INFO: ShadowsocksR 3.4.0 mod by esdeathlove
+INFO: current process RLIMIT_NOFILE resource: soft 512000 hard 512000
+INFO: loading config from user-config.json
+2019-12-02 11:03:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:03:25 INFO     util.py:49 loading libcrypto from libcrypto.so.10
+2019-12-02 11:03:25 INFO     asyncdns.py:324 dns server: [('172.31.0.2', 53)]
+2019-12-02 11:03:25 INFO     asyncdns.py:324 dns server: [('172.31.0.2', 53)]
+2019-12-02 11:03:25 INFO     db_transfer.py:822 db start server at port [1025] pass [J4RMNH] protocol [origin] method [rc4-md5] obfs [plain]
+2019-12-02 11:03:25 INFO     server_pool.py:146 starting server at [::]:1025
+2019-12-02 11:03:25 WARNING  common.py:334 You did't specify CIDR routing prefix size for 221.213.75.12, implicit treated as 221.213.75.12/32
+2019-12-02 11:03:25 WARNING  common.py:334 You did't specify CIDR routing prefix size for 221.213.75.12, implicit treated as 221.213.75.12/32
+2019-12-02 11:03:25 INFO     server_pool.py:176 starting server at 0.0.0.0:1025
+2019-12-02 11:03:25 WARNING  common.py:334 You did't specify CIDR routing prefix size for 221.213.75.12, implicit treated as 221.213.75.12/32
+2019-12-02 11:03:34 WARNING  common.py:291 unsupported addrtype 163, maybe wrong password or encryption method
+2019-12-02 11:03:34 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 93ed2fa113b16215d1aefa17925d651354f360a84ff6f6fcdb7666b4c8784185de2aacdb3763bef17391720cd8a5ea8e1da3cf34c58d35765f0e7e7acb8a1e7325c31c43724598d85ff8e06a1fa734a331caea61c58898c29e8b157bba279836c50deaba3e03f3cdd866f59967fc68d8b44451b3c0e49266ad6d10db4ffe2403eb3be6ac2381f47efc741a75d1ebae2f8c8fbb97b36e2240fe82e12e376443e9b0cff01aaa9647ce318d4fe772a5ab0480bf535393e321cec1b96de90eb8b265b2e06e6baa79b568fb20ee7b3664936146579762130b9d130270923c4bb2fbde03ed9f29fe54ff2a75cf7f6901c3ad2da5b345ce8d67e4acc9eb8493962ed24a12ce39da3e519a4b13327e4304ad348dcd089ade4d7368e0158bb0e55f7db232e2f46fc8016accd29e688eca71716d1a3642e53806fb98e6c3de7dac05a500a4c03924812c3f0a938c3fbcf0e1ccfcb0f009996fc3ed3bbf4d267f060bd91a23748cf194177c7b11924f2fa63c1d94dfcfac41be1b75cfb4f6c5688e82d388e9dca1d4f2ce3a19ba9a877e4bec9685507b2f46e29d3681cacec985eb004a77b1aca9a227933e4fe1fc08d8c52ec56ee285300f037430dab9532898fd008d829ae7d153ce3d2911592db891adef5e880dacecfd0cb104e257d927aaa50a7d38d5ea9625ac75bda068a3d46fd8e6abd2084cf768bb1f0cd3f1fba244825abe380b38eeb0959e4bed410af39b779680a7954b01c62451ecb2cd530100993b343925280ff8b52444f011740725296e559b367f461d05cd31837f858953b73642309747db26b513cbcfbdc3aec8f9bcad91d1b0ca6f93f937c6e1c52e361c68842a1600db3f10bf547c0a9b3723a1153983e90fbd1cfec32cfa4ba7724542864e0e155ee9975b4f92fcadb38f302cc3a4690a64de1a160d4ced4c5d95a8522c4394fd32ecc1cef163c3e350ec7977fd2cb2c8e97ca6af600dac4cd1133049436fdeb7364fe222ea355932b1206059c2e1f842283016eb25986af328f7d27642cd779ad00678766b6061e7e2c3dd9a6e5b548bfcc681d0440793b40019181b7ed3046f85b32e3f7398d96b30efc623df24ea2a89eef2e00ef4db32c53f7b021f4571d307fa8d0219c07637a65913de277b67e203453dc45698add65b60b7ca0ad083065e3bac28e8de5c5794f7b223917042f42fcdb2198bfe2e11babd3722f8467805ecf12ce698f4fc86d306dae70fa7fa1ca0c33293a82f5a50c0737b4e93846e65826b397584b2ec6458a5238f38d96e3814dd0f6c3105d20ecab75ccb0b10b51b8570a226b5b8cdf77e7c78b27164d32bbd0b91ecc3e71ff44b8bbedf09ae1465bf6640db672810c658b21383494299685a6c6416d7a6a60560f7316a317031c6888b3c7b051fa4a29ce34fa02535a2d9861d240cac3beb9e244560ca1d7b8a909acdf74f93bbcb2586f9e9431764acd8afd6e2d1cd6df88e526524f7573acc5ee12f70bb04f2acc881b09ad9a2679eb54dcce62da3742d9991eee7f70466d9af from ::ffff:171.12.232.174:34065 via port 1025
+2019-12-02 11:03:34 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34065
+2019-12-02 11:03:34 WARNING  common.py:291 unsupported addrtype 66, maybe wrong password or encryption method
+2019-12-02 11:03:34 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 3e5df677d0eba963c9f42e3bac136bf68d61ab9ec31e4f2b930e813c4d5dc76715bc608b3dba1547b74e59aa001436b76fc7332d334942caefb99a54aa7cb3e12a395166950e9ad938cf127a71e45110042dc4dadf571023cdcf59d61c49320ee240ab99af9890a7ee71a3e63440d5d22f8a465be6f6bb9bb3772480480857422a574c7f451d9d4819a6c9a0bd78cad04134bebca46c547f0d3d1969ce2dbc8f84eadc4e81eaac06056b2228067d5bada6390ce3e887c1e250dc49f8af9c625f92caa8281ba0c7dd574e810d535b75f3761c13c6f7c24fdfcac7f05574b975858452eaca928ca7e6138826c99550eb21dc87f75ecead95606f49c6f8799be758c73ca77bc4a118b8510d464443d0523672f455cf84e253b5cfca2db03eefe55029f5ff2dc4ff574bcbbd2aada9e817b8045c9d52884ca551330a84aa7bb6486b25d427b292364f679d17d0317a7d4481e6335eaec2c443de4495f7fd63d4660dd9d3b4feb588d5a06f657c8ac9912861f1a6d364fe98150f8c5f42ad08dd5deae75f259c65feca5ae3455961ea53cf39c360f646eb5e83a1ea1e0813ba176b5d62b0421605299ef0ce134fc6bbbba77b00c7935f8540ffbefd8a77f19517dde9e3882c09d89e57d2e80a2b606d5e67b06a899ccfa8638c45c6b301575546c16a3e0d02750faa0550c8eb1f320b5e98cacd0a0704ad3e899104b55da75174fd9627667c1b2d69f48d9eb6aa43c6d8c6d3800b9cae3963b934850ee710881c61177c3014efe5993805551e02450a95e0f14703d418ebcd32275681aecb75a1b82a503539521758c73fe08f33b3ff53b89dcf03014fac637af932031f4e8aaf73147d37b0d76af502226137cfa6a47d8c4bcb3b0b576f014a832fe1c26f68b4458520087028d35d94f246c233698ac293a70038aef0f49e578dc7ec893a434763410b4772d6ff2e8a87575169733ba446ac9353f4339acef285950e68bc439570ced6237bbde2a60021a22a779c221acfbb0f66fec32ec54faff2d38adc646499c0038b78e4a718ca5e53ad90687ac4fea95a1a874749e5f6dc34b5044a33073c0bbb8d7bd86ecc3447012ef674e7d2901b0dd2f1cc0ecf5a7e8d7558cf04906a4801d0d08e3747b4f01d29519157819a752aa12a65e94c822de1f40c33f344bc8c6b9422b0c45bd263ad27441ca8c2ace3c28e1af7e86ea81029fa1dac4c1c60dd3ea6a3267d5a6b6097d518f568cabf6d7d46e41060d496f6e6626c53e8e3fded5f8df07f5b2a3573e23969c99c79e17d6df368d4cdf0774ef4b42779ba72f6e8590895eab5503cd00052a7c46b0a5b259e5e871e8a124ac5875bb1038b82eb5e77af827d2638e9d177c60b26bc24611382fa447892df0988fb7a203e70f6a15a2b65ca44184586ee938c14ac27689a8bd4f7a3131bd802aa93df91bbd23219e7b06d9987c7d9a2edc3c9a5603ffd21514d73c188b5d422ded2e0684e96fa6fd22c743d2dc54752155393d645a60c7acd00e472cd46e6d60ce4017a3d3d8d8dda from ::ffff:171.12.232.174:34064 via port 1025
+2019-12-02 11:03:34 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34064
+2019-12-02 11:03:37 WARNING  common.py:291 unsupported addrtype 66, maybe wrong password or encryption method
+2019-12-02 11:03:37 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data e12a19444d18c4fb243f88440a34f2c11b3e8bbb08432f99de33c7906939bd3b67959a5f35ec52d23d757292dbeeb1ad6976fb23661ca2bd676da1d03c66ca9a9e0b5f57117b5cf784d751fd1ffe5a13dbf5a4197d85c07ba8cf79fd47ee6278fa586c2469e65b515a4a4ae6d99a0d4d563781d9de06e0b8334ec9035f87c3d0c56a6a68b90c289c983eba0512f5a0af39063561bbf9810b2227fbceefef0274a1f40ed8638f612a3766ea3f9a2a420181c704ec39dc7eda4036e07e6badaf370ad6aa5b1924aea4f12456825b22eac59605c2b3e26dd36de3295ae91f2cb401713880d57ded9d63fee31a423be9e6366c2ff734f2970d773d1e85a22ccdcf884d0484a80e9b255ba276e3b9b89113b41c0b5e9eda69b67b540b6346cc038d26829ee580d2bf7518260522622705785b4d9f489edff55716149a9eb37abe558059dc53e1f6362967265cdae5f312f4dce9c9277995cfcc8358995892a569c60c516d05d801dd838aeaaad14778237c35a87222b0ea6b30d48fda95e1f5564fd1ef592d727eebbb0c902f408a1f6af9adb57de239a6777cd0d1c7e212a81e666da881634c1280904283ca0ddd0ee75df9ae362b12bb27f9268b9720fa77e5fc2b0cf5bc05f7d4cc312c445caefc1d84bd7c48c76cfbac8e70a6084c96817572126b0273731b10037c5fae903b8954ac4cc5f32c9bb0b488d6e0c3e893cc9eb5b5d2441778846383b0f44b4032dc7f063a9245c023fdeca2cf39dec19b26108782a18b6348c2a0e6ed9ce453b986d13294ff9fc25f968514e0d002d6883da0713f40f765fac7c3d6afed20315e0644feabeff1b2a42f64b74560997eb24486ab16bf98361b76a67149a19432e99aba5e5f2304bbd9ddf80b1eaa3ab2cc1922872abc411253d674231dda8ca2a0497684f5c74f22d4e956166b7a47fea1c4039fddeacad109c456a422369e9ef7ec2692a346c210c49f99d34ce0e0279129ce5b77fce88b0da62fac92128641480313afefebddc33a7d752d365d764b6ea6e1c8f6ee889822ed8b41dd9aa6a3605176622e9f75f0f43e649e0ba464e7d82d93cac093aa410fadafb8a6e1c8670bb3c5c08686a991622a7c74f9a1ef8aee6f6db87e64ff3be6fe60cda627650bad9c353cb4a6d85c5b317d109cd980caab76148598348cddffba1f9f98f4cb7c78fa3286f7a830bba8a6e914c962b749e47ef1b954ea5967138e517c902a389f8aa5755cd97003a3f8bef17dd796ea0a3fcf906ba064618ab43606e13a9b05f6e943d0dc5efc0beed6cdeedf1cf023ba4d1cde342f30f4b204d580802f3df529b223dc5e9137518361db0832a58a7bafdf7b7b444182f16d2d59603612918f74d7329fb1c13644557fe3884ae5b95032bd2210bd9cf445a5be9511b96fb6b6c64a47ca6c8ff90552f24a191ced2ef7854ad20c3d4136a09c99ce3c1b932ebd32c2212de18ca9d70340e8116d65888cc40b6b5b068a21c116fac63e8883daaa7a53573c5db8458b8ac1f46133b1c5562a22387d034d4d1d4a03690fe1f717f6bbaeb46f5fd25f49976b5ef4d8de4771d8cb57a9f6849c8f129f1f9ec9af75110eef7b83d35e55640cc25526160fe77a3013847c67a89113690429991c618a773eff55680541b20b8e333bf8a21e3aa4fd514a4aea38646a93782da225d79083ede100674654d169ce4d1730471f4102c436b4c71c885eaedaf5471761badc6821eb3523d58b140ff81d00f6c0974e856e01ae1e2669 from ::ffff:171.12.232.174:34079 via port 1025
+2019-12-02 11:03:37 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34079
+2019-12-02 11:03:50 WARNING  common.py:291 unsupported addrtype 194, maybe wrong password or encryption method
+2019-12-02 11:03:50 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 28e473c2b6bbdc371fcbdc0d7f198d324f1c834d6b63e4e3c55284070b5c7556 from ::ffff:171.12.232.174:34112 via port 1025
+2019-12-02 11:03:50 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34112
+2019-12-02 11:04:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:04:25 INFO     db_transfer.py:791 db stop server at port [1025] reason: config changed!
+2019-12-02 11:04:25 INFO     server_pool.py:225 stopped server at 0.0.0.0:1025 already stop
+2019-12-02 11:04:25 INFO     server_pool.py:249 stopped server at [::]:1025
+2019-12-02 11:04:26 INFO     tcprelay.py:2053 closed TCP port 1025
+2019-12-02 11:04:26 INFO     udprelay.py:947 closed UDP port 1025
+2019-12-02 11:04:28 INFO     db_transfer.py:822 db start server at port [1025] pass [J4RMNH] protocol [origin] method [rc4-md5] obfs [plain]
+2019-12-02 11:04:28 INFO     server_pool.py:146 starting server at [::]:1025
+2019-12-02 11:04:28 INFO     server_pool.py:176 starting server at 0.0.0.0:1025
+2019-12-02 11:04:45 WARNING  common.py:291 unsupported addrtype 231, maybe wrong password or encryption method
+2019-12-02 11:04:45 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 752cf8520e9090b44dbb6b3e88f561280a9d4f7ad6549ec071f6e04a4fb16f3108570ea5d700a545 from ::ffff:171.12.232.174:34226 via port 1025
+2019-12-02 11:04:45 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34226
+2019-12-02 11:04:46 WARNING  common.py:291 unsupported addrtype 242, maybe wrong password or encryption method
+2019-12-02 11:04:46 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data f5797676572732f0d9cd1a870ede66dbb226eeb93bfb0c6c839a8ea9eeffe376197cee5415a5cd38 from ::ffff:171.12.232.174:34230 via port 1025
+2019-12-02 11:04:46 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34230
+2019-12-02 11:05:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:05:30 WARNING  common.py:291 unsupported addrtype 197, maybe wrong password or encryption method
+2019-12-02 11:05:30 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 176fcc0b5dc82d4458141bee00ed8f1cc343231fa7b45e4098da19d99a6c734d774509e4803c207b from ::ffff:171.12.232.174:34342 via port 1025
+2019-12-02 11:05:30 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34342
+2019-12-02 11:06:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:06:38 WARNING  common.py:291 unsupported addrtype 33, maybe wrong password or encryption method
+2019-12-02 11:06:38 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 7cd7fdd8aac4585e73fa0a29354c2caed4f10a4c6ae4ab86b9a6fd18a3fce6be9806c21fc431a3 from ::ffff:171.12.232.174:34501 via port 1025
+2019-12-02 11:06:38 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34501
+2019-12-02 11:06:38 WARNING  common.py:291 unsupported addrtype 112, maybe wrong password or encryption method
+2019-12-02 11:06:38 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 59993f36865738f60bea7f3a9d40cd9b456b61a1013991ca4be27ad13c59f1063511521810e1aa3fb2991012cbe693 from ::ffff:171.12.232.174:34504 via port 1025
+2019-12-02 11:06:38 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34504
+2019-12-02 11:06:39 WARNING  common.py:291 unsupported addrtype 227, maybe wrong password or encryption method
+2019-12-02 11:06:39 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 034afe38b7ec5505c0b9313226f33cb102a17934f3d44ac7b9c17a34004c2dba194b2a6af6132a4374b228065f5d016052c474c58970a4c4be65e8ac6cf98cc800e624c42e3674eb26dd6bb20bb1c3b2d7119cda94827bec286999b392011894a37f126b682a41e165e427e9192827b211ced9c8a57fc4e08667bed1f5b0d0b5aa05a23ef2132adf83a6982d6ff7a5d75063a886448122d40f51e59d0a6b2d15709f5d5f44e50b3c4acc0458e5ccf4f67c1f0f45f2c9f5f64a770844466736cc65c1388a8557a70cabc5fed74a1b3319c40942b8e15da126e6b1558d138ae59c01ef71a784a80442feaece3298beec98c0b9ed0edbf3fa8407f2338cf4938a6fd7b52c43e8857aeadbfd5cf0a489f50bdfe5a14d14d3d4196e34d429963af2c7365f1260924accece0aca06defc0d462c7f46778fb698962beba1d20a4dfc23394c979032b303c65e776fc6e850111491c97d3f0634cff9e22ece4995f51e280b5f38c1e27c82b95ae76dd75d5857c511c54a261e68b2a0d80edd5dd9c3d976e94f4095271c34b92c03ffd681eb0f90dd5f88b3e8cb1d17fa1e850e926c54a8b98b47d1bbe8c4714c48518f855ae27792ab35f22a7a368a72f7404b387e48dd89fd8c43f0238286a27617ad292f56b66728e5c6a90be1cb92e9e93bad5fe09569a6a776306bc0369020a7f3f0738d87c5daa4a7a2c72c2a9dc6b6ef61a2b7941145b38524e9a4135bc93b89e5ab42929d7dc910923663cccaba3b889924b75452b805c4a4e9ffc89ec71a4f0 from ::ffff:171.12.232.174:34508 via port 1025
+2019-12-02 11:06:39 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34508
+2019-12-02 11:06:40 WARNING  common.py:291 unsupported addrtype 67, maybe wrong password or encryption method
+2019-12-02 11:06:40 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 5e343acf249ae2097496ef92f2173c98f7006fb70443d11660d999106fab36d5919f100e3ba47cb2dcd1 from ::ffff:171.12.232.174:34511 via port 1025
+2019-12-02 11:06:40 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34511
+2019-12-02 11:06:40 WARNING  common.py:291 unsupported addrtype 6, maybe wrong password or encryption method
+2019-12-02 11:06:40 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 9a2883b015a4c94ffdff0e8b85ec45110d9d9dff35b17af21e51fea7c9dfb67955a1660497633a03cbd003c5a271431da250f9e8fdc7f4e639b8188608a4847b8bc6258c665855b928d186e61ca0de92b85b0d34f56836663aaff31dbabdbe6c999950ff6ce5a258a215a23d94c93a81f979d912adf076f2700d766f53b687ba904291c7c2d579c29267b41d10fd7a6b7e591439f37ad243291ebd59335b6e11876459b155cedd1c91c38ccabcde3a4bf92c9ba86183cf653ef7f77996ad636904fb696d03c87f29a8c5098e4e2fb664e6db3a7a779d273d525d61ea0ad398e04cf2c9236c4a57166197e679a739d8dec7ff0e7827fa598e759359ee558e58d581cf4ddd27d81d2282e69137e1eb7b47be1d8ccb78bc99301ef2e71f32f5f437875bbb0a15836f228359ab78cf3a94e696c9117d05acd801bc5e648de5d008c18fe5bc2df3da5e57bad8484ab5a42f159225119b784e832a3d3c1a38dff3bd3be093d49494077665844fc41e4563ca3f26484c0e5536a861901a8168064c4d79b742fb9a1673cda15836d7c2f2e427d15b59f125dd2e71bcad787b33cdd8f75d3a4b299225041290709501dc7ba656d4b0a47d738d4bb3a2e807aff2e0ef1a98e69453d41bb64ebda332f63ef3a1eb43896ca91847eb5033a6c05092bb1cf4aa9b3fc8dc90e18a7f279a2d3e3fcd709da34ab9123482f1c8d2cc6dc9ba3ce9e1c3dfa686a4ae3c2fe87d4192c8bf3d285013bd1f219cd9edc6b2394ca954c589993813b8462e7494b9cc44e56ee29cacdba0b12d6b697f6146f4ffdf047601d7c2b849cb9539965d22f9be6302 from ::ffff:171.12.232.174:34515 via port 1025
+2019-12-02 11:06:40 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34515
+2019-12-02 11:06:41 WARNING  common.py:291 unsupported addrtype 227, maybe wrong password or encryption method
+2019-12-02 11:06:41 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data d5306c3afe78291e85305f7a53d6270f849ae7b67de2285c6134527393bc4958c1699592a5f0130a0ce0ba8e8673639dcbffc853106adb599bb7dd07b83be2a133a56d52fd6639fe58700648fd36078510763b85cb4a10a4058bf4c9da83ab48bd2bd0bdaee2944ded8e3f6abc3c816b2db786f282d594a47608c7a23b599ca0a4070bc7014888be00e6f06261bb10861843f55a33911de64e1fed3c644b0891b70a68952c4f4a73829e40c0f7e694acb38fe88bf44a17b13c64f64f10267c477753bba1ed0262850312d32c8af571e334a7e13adb610716890db796d56c0b72c6baa482be3307ca197a73e0c8243660c534e54512f2cc49fa8d30bce907bb116d10439b380986510ce445b866860717ec357141cb348291573e9ef0ee9705776d28520d58c3c15833bb95870077f2a260dfc9def29f44a4460fc139747feb4d256ae961a57d7699f2883208e647315141427ac25eff1d1c3a041fd5a870380cbea7d10646cbe4567548296723c9eb5712efb055b5567700391ee728d1daccc49c958a2278acf8733d25733663be6b857ac3a21df52b300c0e17210727675d5634dbc4060e5c2e48437f351c56621ec0d12f28db52e3f96bd0914b23281226e9d80f8182aaa4bfc56d23428af99c0ddbe8031f9b79261705b9312ca72baf5c162a642e326ebde963ef001e90d7a152adeb3e0152ff2e1458a834473d44de103195b145ea59af149aa9146eca9b47d855597e84ac6c4fab06277ce4b1641a9bb865c6b6bc8131077a986b09fb2db6751674828afd0d631213a90740344c29b27e2532a9b9ec4d2f93d6b453beb884e3b50e2e9bd57f340cc7d12eadd70289e944b7c9299b661e5b092279 from ::ffff:171.12.232.174:34518 via port 1025
+2019-12-02 11:06:41 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34518
+2019-12-02 11:06:42 WARNING  common.py:291 unsupported addrtype 118, maybe wrong password or encryption method
+2019-12-02 11:06:42 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data d4f2c60866c26a3a5c83bfdda95a5d6ef2bfb15a5e1428c8be8fa652bea0b0a168531e2b4851a4 from ::ffff:171.12.232.174:34524 via port 1025
+2019-12-02 11:06:42 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34524
+2019-12-02 11:06:42 WARNING  common.py:291 unsupported addrtype 165, maybe wrong password or encryption method
+2019-12-02 11:06:42 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 4b2dce20e3a7897457af29868d30f21babd106402a75a249de2a155e91877d6104df6e from ::ffff:171.12.232.174:34527 via port 1025
+2019-12-02 11:06:42 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34527
+2019-12-02 11:06:43 WARNING  common.py:291 unsupported addrtype 22, maybe wrong password or encryption method
+2019-12-02 11:06:43 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 5c478fd8fa8767787aa4330ed7124c7f19fccba6d6f1c409596ea39432d37d577cfa6e0a86 from ::ffff:171.12.232.174:34530 via port 1025
+2019-12-02 11:06:43 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34530
+2019-12-02 11:06:45 WARNING  common.py:291 unsupported addrtype 112, maybe wrong password or encryption method
+2019-12-02 11:06:45 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data e803e92638962641ccdf9988409b1542b8871461b80053ae60e9064d45866551ff1ed83200889132c29a0ee33340ba from ::ffff:171.12.232.174:34545 via port 1025
+2019-12-02 11:06:45 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34545
+2019-12-02 11:07:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:07:28 WARNING  common.py:291 unsupported addrtype 148, maybe wrong password or encryption method
+2019-12-02 11:07:28 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data ce6b64113b5787ec31a4f666bf6153313838e74189620b42bb8c20772455e35b3aa22b84d221dc2783cbd900f0efb042a775abbfbf4e9df4a55949604a233da7ec808702a740c9a611e95908b410cb337098c570f785765836f3427608de47ecc9551e66e8b148e38f89cff07bb598e23754dd183149308a94096248850d523e65b17f36e0cfcc09c6cf315b4c06a41b56588ca29fdf87503e48ae6f2803446451d31f545357589b968a6692614aa471c11468cc0e8d2fea80947c086fbdbd853b00836a01dd8870a53e24534719ba112f0a3bdd2f23fa222bd13556b3d11365d07901ad4a3241626d83ef5f176c7049791231ed9ddb68d667b60c2b658832750b19912c19de71e415ef7d4785f357189b2f0f8c20a8bc59a6368bf3a0fa5f9483a5d6aaeeed09d46394a30db8f27e17dafdd2ae42b6e943bd154acbb4b84c9ef94e8aacd774dcd8f61c903b3651305f8b60e2d528983cc09c890b79cfceda45ee2864565b2b9d4ea6b9074be7f3fd94cfc0bec6ac595e46b73f252d535bf6a0fa85953e06e45ee9df64c886049e53c5d25033cd19e575a67551b188e32e1dd16e39b3b88530d7dcb1663d7b702260cbc1a5db130e3e1fec3479b1c98e932eafaef06289103418fcfc6709d1b7d139f7bb91b89099c538d931b035bd3238c98d36a767b64f9f44e3af3c28c84651437e3f94a186daa2d24d00ddec9f8c06a8bb2e2a8b972c04651826f7107936eb1da165a8abe5cc49a4998ea7d155f46878bc47556990b11a1c5bce09e8714734637ff6450e02e8df from ::ffff:171.12.232.174:34636 via port 1025
+2019-12-02 11:07:28 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:34636
+2019-12-02 11:08:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:09:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:10:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:11:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:12:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:13:25 INFO     speedtest_thread.py:24 Speedtest starting...You can't stop right now!
+2019-12-02 11:13:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:14:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:15:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:16:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:17:05 INFO     speedtest_thread.py:156 Speedtest finished
+2019-12-02 11:17:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:17:25 WARNING  common.py:291 unsupported addrtype 181, maybe wrong password or encryption method
+2019-12-02 11:17:25 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16a748f47ff3ac8af2c85cd29642f1ecf7994382e4fbc74256bd4e5301ccad9fa2 from ::ffff:171.12.232.174:35526 via port 1025
+2019-12-02 11:17:25 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35526
+2019-12-02 11:17:27 WARNING  common.py:291 unsupported addrtype 32, maybe wrong password or encryption method
+2019-12-02 11:17:27 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 82d6eae7be6caba562e72f33d8609a5e95f6574ed13ea3294c1686c115528c6c289cbbe6c9127440ebb661fd545397b33504ab100eccb72177ae6a3f60a2f95d1bd6e7e81b11295e0900646678de1c399978faea5274f21cb90d55b6cf4eb84994e1ce0faba2b99d7a6090f7621d04de27b028d5c2cf211213a3d9023ff14e89fcabd3a0ab87c36c14a5a67293cd238900e03fcb5ed588e9ebb25728b57d768fd41ad7f404b6c3b582387c31a9bb123d30f9ec3babb3153553b23060785f5d4297622b34f642c68381d772e21af2e18d2925fc5a6701503b00c2d3060833653382f256f7a3528b38351b17ed805b3c953e73b03cdeba978800b68a9b39d839654a79adf44f5e45dafe2a765bd868116511ae3fe00e6f70c106c429f01f1f93b1dbc27f4b2a89affcec3916660b531e51af7ee5d4f736bae9389e16b8a699cffadd12ed1f863b3c50aef32f689ff24cd907e7865ec75726adb4f7c441fb5e13f71ea3bf68455b42303be8e44ca6e7266ce32f535457ae8fc2e9d1084bd2109a62fbc01098bcbcf9f7be7b25dd0f801def1fbee6e23d33c1db22b16097c27b1a536d97c5a35f96c5dc41f938828f7ff0ac6a0b76a060f67e00ae6e3f497308778b63450e9d4b72f7da982fd5800687755783e4163693bfb5ee3ff12e947b90587361f73cacb547b7ac47e4d1c14e091d69dadbd140aab8be0ea02b7d4fdaf8740d4716722c690a64244bac6373a1b3b243ec2a525bbd4fcacbf6512fd14fc5c16a7dffa8bc33bf351144a32742ad84a9710a93cf4efaf72fd34aaf3df17833bf829339bc3f9d3cf3794fa3dd352a4c59a9e7efa7724b135f4924f14080c0693f3469b6d28f231325076e88fd25c75635ea694e05655e3b510fe2a04b93402800ace46a37b133c96fce1519df5e57691431dc5304d2f1f36754b41e652850f5d9d32191acafaeba0f5a95af2e1127ad9355fc36aaedc90e6696d0588068218048b0dd745b6f75a2cb5bb96fbeef3eb85a33546f0c7e51f91cf19fcf804cd1bb9d6006a19651e75d9eeb46 from ::ffff:171.12.232.174:35531 via port 1025
+2019-12-02 11:17:27 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35531
+2019-12-02 11:17:36 WARNING  common.py:291 unsupported addrtype 51, maybe wrong password or encryption method
+2019-12-02 11:17:36 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 704f658f6426ae1b96b52aa296b030645a42aa4b9a5abeaa47f7e334f22297c8f6d94aacade601ec3478ed4ade16f745515385829a85a0e125 from ::ffff:171.12.232.174:35555 via port 1025
+2019-12-02 11:17:36 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35555
+2019-12-02 11:17:46 WARNING  common.py:291 unsupported addrtype 135, maybe wrong password or encryption method
+2019-12-02 11:17:46 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 0dbe66118f906a41ceabcdd8c15b68f4e375bedf9153996877259e98016e919e4d4da72c245181 from ::ffff:171.12.232.174:35602 via port 1025
+2019-12-02 11:17:46 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35602
+2019-12-02 11:17:47 WARNING  common.py:291 unsupported addrtype 180, maybe wrong password or encryption method
+2019-12-02 11:17:47 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data a1193ba58ac7eb1687332729d46ff0010c87e409ae590fad40c7c6df979daa2c60e1 from ::ffff:171.12.232.174:35611 via port 1025
+2019-12-02 11:17:47 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35611
+2019-12-02 11:18:07 WARNING  common.py:291 unsupported addrtype 80, maybe wrong password or encryption method
+2019-12-02 11:18:07 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data bd276ae75a3deba01cf75e24e44c61ab88e720b99d44eccd3d99e4c6d06db5ec05472c92387b6d2a1bea7e57ffa816c856733ff566dfbd4edc6c486628b4fae9b00bee12ca6ece0a69d5a520fed4e93045b93c5025f99c57d443df14eccdb3584ad523bada360c9a24d1cb8442c58058c51b87f04630a3e7cb3e2576598cd8521997ecbb7e786a5519dd2b8ec2478a2b5ee69e2df03f374c0f631d075d6a8e866ddf5a06ae4116b1aee555ab24aef137211ab88928374fbd85bd5a343b5db68e9534ebac57f7266544beee6e91f774cf9ae444e6250537a19bfa101b1dad3034adc8503257b3d3547a7cc1dafb7f54abab675c22b1cb9b4a16d3f173d7ed9861bae6ee57b864130951d3e0c42a8928959820f3dd1e57a956a9e948ca6361aefba030a169b8a932b03aad8846a9f5dfeec793bfc1ede076c3a50972e364658486bb28938532b7024cc4d0d908391ac8074849e542fe5451988b53c0c3e7f24151fd51d02b8a218d25ed301e2e23ca9179c70269f041a035243c13861f2a218d8c37e833e4a98f969ac5dc31d5b296f936db8ed214c3504ee41279499024d24255d96599830ee2a97c529960562931d90a9d3f29c3fe37a9017f4bbf84448346b08657b9eb8b547cb8d60fb3f1c4f4487896bd777ce2222a66ea764085030debdfb09481d7540506a27011d0b9f6b82ad232a08e5e4c73680c80bd374bcbaf2ab4f5f9e72f6fa02208a6ee848ba2334a5d81cd72e1e3e23166c08d73eb436532039b3340e722ea4fa2035580c28ac66e6a7a384f0ee04c from ::ffff:171.12.232.174:35673 via port 1025
+2019-12-02 11:18:07 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.12.232.174:35673
+2019-12-02 11:18:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:19:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:20:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:21:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:22:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:23:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:24:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:25:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:26:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:27:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:28:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:29:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:30:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:31:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:32:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:33:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:34:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:35:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:36:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:37:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:38:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:39:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:40:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:41:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:42:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:43:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:44:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:45:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:46:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:47:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:48:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:49:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:50:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:51:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:52:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:53:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:54:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:55:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:56:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:57:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:58:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 11:59:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:00:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:01:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:02:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:03:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:04:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:05:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:06:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:07:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:08:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:09:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:10:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:11:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:12:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:13:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:14:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:15:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:16:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:17:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:18:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:19:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:20:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:21:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:22:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:23:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:24:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:25:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:26:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:27:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:28:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:29:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:30:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:31:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:32:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:33:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:34:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:35:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:36:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:37:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:38:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:39:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:40:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:41:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:42:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:43:25 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:44:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:45:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:46:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:47:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:48:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:49:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:50:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:51:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:52:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:53:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:54:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:55:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:56:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:57:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:58:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 12:59:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:00:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:01:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:02:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:03:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:04:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:05:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:06:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:07:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:08:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:09:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:10:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:11:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:12:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:13:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:14:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:15:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:16:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:17:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:18:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:19:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:20:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:21:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:22:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:23:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:24:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:25:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:26:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:27:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:28:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:29:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:30:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:31:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:32:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:33:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:34:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:35:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:36:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:37:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:38:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:39:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:40:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:41:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:42:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:43:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:44:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:45:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:46:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:47:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:48:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:49:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:50:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:51:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:52:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:53:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:54:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:55:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:56:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:57:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:58:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 13:59:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:00:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:01:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:02:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:03:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:04:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:05:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:06:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:07:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:08:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:09:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:10:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:11:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:12:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:13:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:14:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:15:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:16:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:17:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:18:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:19:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:20:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:21:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:22:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:23:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:24:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:25:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:26:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:27:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:28:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:29:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:30:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:31:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:32:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:33:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:34:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:35:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:36:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:37:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:38:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:39:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:40:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:41:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:42:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:43:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:44:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:45:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:46:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:47:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:48:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:49:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:50:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:51:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:52:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:53:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:54:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:55:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:56:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:57:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:58:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 14:59:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:00:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:01:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:02:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:03:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:04:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:05:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:06:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:07:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:08:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:09:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:10:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:11:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:12:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:13:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:14:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:15:26 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:16:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:17:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:18:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:19:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:20:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:21:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:22:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:23:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:24:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:25:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:26:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:27:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:28:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:29:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:30:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:31:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:32:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:33:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:34:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:35:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:36:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:37:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:38:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:39:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:40:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:41:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:42:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:43:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:44:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:45:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:46:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:47:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:48:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:49:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:50:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:51:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:52:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:53:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:54:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:55:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:56:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:57:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:58:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 15:59:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:00:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:01:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:02:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:03:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:04:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:05:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:06:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:07:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:08:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:09:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:10:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:11:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:12:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:13:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:14:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:15:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:16:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:17:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:18:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:19:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:20:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:21:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:22:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:23:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:24:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:25:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:26:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:27:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:28:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:29:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:30:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:31:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:32:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:33:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:34:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:35:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:36:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:37:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:38:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:38:58 INFO     tcprelay.py:1901 port 1025 connections up to 25
+2019-12-02 16:39:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:40:22 ERROR    tcprelay.py:1519 [Errno 32] Broken pipe
+2019-12-02 16:40:22 ERROR    tcprelay.py:1523 exception from ::ffff:125.119.223.230:56478
+2019-12-02 16:40:22 WARNING  common.py:291 unsupported addrtype 23, maybe wrong password or encryption method
+2019-12-02 16:40:22 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data a04c0cd1a07a456a8c83b4ee161130f3be2bc8f78cfccfe113c27227cc1ceb3793b98bfab3b3976287049da921f951d5c5c30c26c10f0601b9a1d65ec794edb57acb447ba1f0d3e8f0d6d1baabc3e82139412d4c587a9ce16c2a28152107c4b647b0a75df7bb7d37846c3daf83098b2c9c159084e32e86e5442bba385c4babcff5f7708f780d742dec8d2f750312f88da581f569abded22727e589b97ea6ed7fa9efcf711bd250ccd3b23bea5244365e9605e8ce1241522ff84d7490d0fed953c5624144ad8b81efcaf69db06a83cedf8092d22c43b2305e55125db3d833c75099e708c9f0255ba48ddd6df23557d54771d9ee23b4f848bdd39c44fb1e2a53cf3d23fd1f0f341b160c5d57f70cbdc36d9281b9fd3532d439aa94a9b1d591cfc4b4dc121d0e3b85d86a34bb33b8c09d4ad6e9e937ccabd2991fd3015f5bb8ed0ecada7daae982729fc4892cfab58e018218c13b463fbf005830238217770df731bd716bdeec52f53b666e6b77058d1f6633e601de66deee18183fce6fef7bbcdab040cab98583b0e3243665d8eba46a393d9037050be787f6222d1460a4b43c5b4ee80d3b79b30a42d69d2d3d52717221e88e7f4923cc37e23122e5d162d6a0658714ab4712592574bd6867d106479d357891f8bdcf5af1d1baeffe066968c97f70d1872d55655cffc31d445e2324da6855eda23252afab8a3fb64db66e4ab79f58cc9d2bc442c58dca63810f0b0c186d52a0c51832f7409921d545010cdcb64ee01fef235324971860907e26cb from ::ffff:27.224.136.133:57500 via port 1025
+2019-12-02 16:40:22 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:27.224.136.133:57500
+2019-12-02 16:40:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:41:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:41:51 INFO     tcprelay.py:1904 port 1025 connections down to 0
+2019-12-02 16:42:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:43:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:44:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:45:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:46:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:47:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:48:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:49:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:50:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:51:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:52:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:53:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:54:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:55:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:56:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:57:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:58:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:58:50 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 16:58:50 ERROR    tcprelay.py:1523 exception from ::ffff:113.24.81.97:35626
+2019-12-02 16:58:51 WARNING  common.py:291 unsupported addrtype 100, maybe wrong password or encryption method
+2019-12-02 16:58:51 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 2d6daf75cb9c6a55dae0b8346b2862e766fd6e0737119811ede949e7a27b0bddc92323068751d3f851722657e008d811777d01de2a8bffa2ef00a62c02714b815c0c34164b2736750885209e61e3e4c48fa9d180470b257a19374d4da807d0c24b976e5f8042f6bcf59c24df7c2895364545f7f3f6e5a7d34d6748d3b797af3b2b606204239def562dc62b183ae2724092ea67a55fc84353c23c566976169f307d013a45c61d3098cef74c2fbf36b46192676fd9b98487013d3303d8710d2b88f07bda9a723c491dae6e897676ac0124fe3918c6cac6097b5d5477ebaa67509b4deb19a7f1fbff069636 from ::ffff:113.24.81.97:36604 via port 1025
+2019-12-02 16:58:51 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:113.24.81.97:36604
+2019-12-02 16:59:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 16:59:28 INFO     tcprelay.py:1901 port 1025 connections up to 25
+2019-12-02 17:00:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:00:55 INFO     tcprelay.py:1904 port 1025 connections down to 0
+2019-12-02 17:01:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:02:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:03:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:04:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:05:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:06:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:07:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:08:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:09:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:10:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:11:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:12:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:13:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:14:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:15:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:16:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:17:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:18:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:19:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:20:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:21:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:22:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:23:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:24:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:25:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:26:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:27:05 INFO     speedtest_thread.py:24 Speedtest starting...You can't stop right now!
+2019-12-02 17:27:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:28:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:28:45 INFO     speedtest_thread.py:156 Speedtest finished
+2019-12-02 17:29:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:30:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:31:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:32:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:33:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:34:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:35:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:36:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:37:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:38:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:39:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:40:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:41:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:42:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:43:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:44:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:45:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:46:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:47:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:48:27 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:49:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:50:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:51:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:52:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:53:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:54:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:55:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:56:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:57:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:58:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 17:59:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:00:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:01:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:02:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:03:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:04:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:05:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:06:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:07:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:08:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:09:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:10:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:11:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:12:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:13:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:14:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:15:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:16:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:17:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:18:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:19:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:20:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:21:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:22:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:23:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:24:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:25:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:26:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:27:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:28:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:29:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:30:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:31:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:32:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:33:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:34:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:35:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:36:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:37:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:38:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:39:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:40:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:41:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:42:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:43:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:44:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:45:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:46:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:47:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:48:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:49:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:50:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:51:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:52:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:53:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:54:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:55:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:56:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:57:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:58:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 18:59:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:00:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:01:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:02:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:03:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:04:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:05:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:06:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:07:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:08:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:09:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:10:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:11:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:12:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:13:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:14:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:15:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:16:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:17:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:18:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:19:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:20:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:21:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:22:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:23:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:24:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:25:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:26:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:27:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:28:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:29:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:30:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:31:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:32:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:33:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:34:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:35:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:36:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:37:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:38:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:39:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:40:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:41:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:42:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:43:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:44:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:45:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:46:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:47:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:48:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:49:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:50:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:51:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:52:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:53:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:54:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:55:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:56:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:57:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:57:46 WARNING  common.py:291 unsupported addrtype 224, maybe wrong password or encryption method
+2019-12-02 19:57:46 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data c6283bf4de2b61b1ebfa7340ecb4d3851e55e6d21117a2340a9566ddd2630e0f94a88dd95c34b41fbbcd0342bf6eeccc0b7127812d4922500691fc6029aaaaeb424b33771134b42a2f674499587d2aae0f5aaf37a0c229324128f830dd3e2e014ee38fda4f145ea63e3ebcb30def0dde714ea30dc005b9fb2eb8e5b0e57c032bb5edf30fcde670fa9328b6f3b9194468972dccbc52b0ee8c6d003536486785cebeeb08ace5268002242b1427ce4a260e1cc3a8ab7f404b73a954ac7cc9f72715139d8ad5731213d22fd0179ada952b17a569ea8d51481019e8501cc531f22e6a8e036d5338b2ea804bf0b018f54903458d64f3768bb50340a34ac2e938c6aa164b0a384df0507845e10c157905334b475d93bdc342cd65c44429 from ::ffff:171.120.30.47:43870 via port 1025
+2019-12-02 19:57:46 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:171.120.30.47:43870
+2019-12-02 19:58:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 19:58:39 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 19:58:39 ERROR    tcprelay.py:1523 exception from ::ffff:171.15.23.167:40242
+2019-12-02 19:58:51 WARNING  common.py:291 unsupported addrtype 53, maybe wrong password or encryption method
+2019-12-02 19:58:51 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 4ef0d04bf4a8e3cd4c31e3c535d84121ec455b9f45fa2a46cdf08ad452ba610f8cda367bc2deaed8222343c40cbf215f5361f2d7f45446c23083b87251a70c5c56b16a0cc620594421342385a1b54631716b376c94ab27e226f7041d0e6fdc6f9296f43ca331d557ee7142501f1eb5da7149666d0ac527ee621bac87874bec3a62c210fbb989ce6dd11becea00d7f5defb85c02735d167701d8a8f646affe1c1c2a7e68167161edb2a64f08cd2c3c615b305dd2292d009da98758b4cad8496c0654d6fcea687199b54f56d5f32bbd1e2833b4baa5a1039e0896a5665f47fbfc11eefdfb84f96229d5524764b55732f209836bdf24e3862cdb7fb651c5e15c2c922027f208ad8930167b8bf3dceb074373f9f2099e1dba77e52c2 from ::ffff:221.13.12.195:43974 via port 1025
+2019-12-02 19:58:51 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:221.13.12.195:43974
+2019-12-02 19:59:13 ERROR    tcprelay.py:1529 [Errno 104] Connection reset by peer
+2019-12-02 19:59:13 ERROR    tcprelay.py:1537 when connect to 118.26.252.225:5222 from ::ffff:171.15.23.167:40345 via port 1025
+2019-12-02 19:59:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:00:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:01:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:02:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:03:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:04:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:05:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:06:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:07:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:08:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:09:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:10:28 ERROR    tcprelay.py:1529 [Errno 104] Connection reset by peer
+2019-12-02 20:10:28 ERROR    tcprelay.py:1537 when connect to 118.26.252.225:5222 from ::ffff:171.15.23.167:40331 via port 1025
+2019-12-02 20:10:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:10:36 ERROR    tcprelay.py:1529 [Errno 104] Connection reset by peer
+2019-12-02 20:10:36 ERROR    tcprelay.py:1537 when connect to 118.26.252.226:5222 from ::ffff:171.15.23.167:40357 via port 1025
+2019-12-02 20:10:46 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 20:10:46 ERROR    tcprelay.py:1523 exception from ::ffff:171.15.23.167:40177
+2019-12-02 20:10:57 ERROR    tcprelay.py:1529 [Errno 104] Connection reset by peer
+2019-12-02 20:10:57 ERROR    tcprelay.py:1537 when connect to 118.26.252.226:5222 from ::ffff:171.15.23.167:40464 via port 1025
+2019-12-02 20:11:00 INFO     tcprelay.py:1901 port 1025 connections up to 25
+2019-12-02 20:11:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:12:00 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 20:12:00 ERROR    tcprelay.py:1523 exception from ::ffff:171.15.23.167:40669
+2019-12-02 20:12:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:12:44 ERROR    tcprelay.py:1529 [Errno 104] Connection reset by peer
+2019-12-02 20:12:44 ERROR    tcprelay.py:1537 when connect to dfe.mic.mob.com:80 from ::ffff:171.15.23.167:40576 via port 1025
+2019-12-02 20:13:03 INFO     tcprelay.py:1904 port 1025 connections down to 0
+2019-12-02 20:13:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:14:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:15:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:16:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:17:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:18:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:19:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:20:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:21:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:22:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:23:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:24:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:25:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:26:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:26:31 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 20:26:31 ERROR    tcprelay.py:1523 exception from ::ffff:171.15.23.167:41063
+2019-12-02 20:27:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:28:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:29:03 ERROR    tcprelay.py:1529 [Errno 104] Connection reset by peer
+2019-12-02 20:29:03 ERROR    tcprelay.py:1537 when connect to 118.26.252.226:5222 from ::ffff:171.15.23.167:41519 via port 1025
+2019-12-02 20:29:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:30:28 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:31:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:32:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:33:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:34:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:35:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:36:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:37:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:38:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:39:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:40:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:41:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:42:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:43:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:44:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:45:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:46:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:47:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:48:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:49:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:50:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:51:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:52:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:53:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:54:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:54:35 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-02 20:54:35 ERROR    tcprelay.py:1523 exception from ::ffff:171.15.23.167:40170
+2019-12-02 20:55:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:56:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:57:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:58:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 20:59:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:00:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:01:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:02:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:03:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:04:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:05:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:06:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:07:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:08:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:09:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:10:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:11:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:12:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:13:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:14:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:15:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:16:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:17:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:18:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:19:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:20:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:21:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:22:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:23:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:24:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:25:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:26:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:27:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:28:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:29:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:30:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:31:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:32:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:33:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:34:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:35:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:36:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:37:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:38:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:39:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:40:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:41:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:42:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:43:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:44:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:45:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:46:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:47:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:48:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:49:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:50:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:51:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:52:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:53:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:54:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:55:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:56:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:57:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:58:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 21:59:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:00:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:01:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:02:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:03:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:04:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:05:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:06:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:07:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:08:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:09:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:10:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:11:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:12:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:13:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:14:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:15:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:16:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:17:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:18:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:19:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:20:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:21:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:22:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:23:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:24:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:25:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:26:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:27:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:28:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:29:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:30:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:31:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:32:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:33:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:34:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:35:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:36:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:37:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:38:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:39:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:40:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:41:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:42:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:43:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:44:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:45:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:46:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:47:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:48:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:49:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:50:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:51:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:52:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:53:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:54:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:55:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:56:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:57:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:58:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 22:59:03 WARNING  common.py:291 unsupported addrtype 34, maybe wrong password or encryption method
+2019-12-02 22:59:03 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103036b951f61c69ddc8989d0684463bf16c696ff4947aab1eb58859059b9c385b75900001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:47012 via port 1025
+2019-12-02 22:59:03 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:47012
+2019-12-02 22:59:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:00:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:01:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:02:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:03:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:04:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:05:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:06:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:07:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:08:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:09:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:10:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:11:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:12:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:13:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:14:29 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:15:24 WARNING  common.py:291 unsupported addrtype 48, maybe wrong password or encryption method
+2019-12-02 23:15:24 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303fdcbc7afe45ef981798d9b9c3f0626f155b8fc384c7fdcb1341985d50459853800001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:47618 via port 1025
+2019-12-02 23:15:24 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:47618
+2019-12-02 23:15:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:16:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:17:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:18:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:19:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:20:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:21:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:22:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:23:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:24:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:25:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:26:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:27:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:28:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:29:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:29:49 WARNING  common.py:291 unsupported addrtype 165, maybe wrong password or encryption method
+2019-12-02 23:29:49 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103030ea2deada46f73ce7edd9b0a41c78e52d752e76bfcd2c6acd829270abb5e194700001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:53598 via port 1025
+2019-12-02 23:29:49 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:53598
+2019-12-02 23:30:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:31:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:32:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:33:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:34:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:35:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:36:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:37:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:38:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:38:45 INFO     speedtest_thread.py:24 Speedtest starting...You can't stop right now!
+2019-12-02 23:39:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:40:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:41:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:41:55 INFO     speedtest_thread.py:156 Speedtest finished
+2019-12-02 23:42:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:43:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:44:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:44:32 WARNING  common.py:291 unsupported addrtype 36, maybe wrong password or encryption method
+2019-12-02 23:44:32 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303f3fbdbce8ff2ee7780f189c8587ef1d8cc9ab4140866bbdcc83bef8b9d73250900001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:36236 via port 1025
+2019-12-02 23:44:32 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:36236
+2019-12-02 23:45:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:46:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:47:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:48:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:49:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:50:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:51:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:52:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:53:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:54:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:55:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:56:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:57:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:58:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-02 23:58:40 WARNING  common.py:291 unsupported addrtype 68, maybe wrong password or encryption method
+2019-12-02 23:58:40 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103039b6cbb8d9b2830ae8edf330f2868d8ad95164d2f3eefff3fc1ab5050bcf98b8800001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:35486 via port 1025
+2019-12-02 23:58:40 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:35486
+2019-12-02 23:59:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:00:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:01:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:02:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:03:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:04:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:05:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:06:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:07:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:08:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:09:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:10:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:11:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:12:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:13:16 WARNING  common.py:291 unsupported addrtype 150, maybe wrong password or encryption method
+2019-12-03 00:13:16 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103035b351e9f37fe4e1c8d37c721ce9966d9f6cc833e6ea82c876927eadb4238db4a00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:44888 via port 1025
+2019-12-03 00:13:16 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:44888
+2019-12-03 00:13:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:14:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:15:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:16:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:17:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:18:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:19:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:20:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:21:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:22:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:23:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:24:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:25:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:26:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:27:23 WARNING  common.py:291 unsupported addrtype 85, maybe wrong password or encryption method
+2019-12-03 00:27:23 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303ca67d6196485dc30788b7f507c6285c76e11178b61164f4e22fdf3ef0c7d23c200001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:48022 via port 1025
+2019-12-03 00:27:23 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:48022
+2019-12-03 00:27:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:28:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:29:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:30:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:31:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:32:30 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:33:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:34:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:35:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:36:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:37:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:38:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:39:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:40:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:41:30 WARNING  common.py:291 unsupported addrtype 117, maybe wrong password or encryption method
+2019-12-03 00:41:30 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303974c672449e8be77d5e6522feae73a5fd78c04461e9e71f08aa89cc611fb4ba100001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:60596 via port 1025
+2019-12-03 00:41:30 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:60596
+2019-12-03 00:41:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:42:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:43:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:44:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:45:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:46:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:47:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:48:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:49:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:50:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:51:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:52:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:53:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:54:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:55:23 WARNING  common.py:291 unsupported addrtype 20, maybe wrong password or encryption method
+2019-12-03 00:55:23 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103038a00a137b53d67aa61926b4db1324fed1cdcaf8a76bd3a350c0b16d16cb7880d00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:48012 via port 1025
+2019-12-03 00:55:23 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:48012
+2019-12-03 00:55:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:56:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:57:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:58:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 00:59:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:00:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:01:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:02:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:03:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:04:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:05:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:06:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:07:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:08:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:08:57 WARNING  common.py:291 unsupported addrtype 133, maybe wrong password or encryption method
+2019-12-03 01:08:57 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303f492b1f4dc546a0532ae7bc3ced220f205a8ea547c4a701c242fbf7188dda75900001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:55334 via port 1025
+2019-12-03 01:08:57 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:55334
+2019-12-03 01:09:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:10:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:11:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:12:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:13:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:14:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:15:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:16:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:17:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:18:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:19:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:20:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:21:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:22:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:22:32 WARNING  common.py:291 unsupported addrtype 208, maybe wrong password or encryption method
+2019-12-03 01:22:32 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 160301007501000071030361c500b38ab5a136b6a8dbe416b864e492b8213bd036f465ddb5e9a8c370c91b00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:37294 via port 1025
+2019-12-03 01:22:32 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:37294
+2019-12-03 01:23:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:24:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:25:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:26:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:27:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:28:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:29:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:30:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:31:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:32:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:33:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:34:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:35:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:36:15 WARNING  common.py:291 unsupported addrtype 150, maybe wrong password or encryption method
+2019-12-03 01:36:15 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103030a1b8773f92f7bbae22785d436f6bc087aa5196ec3f53991cbb12a71f8c2540900001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:44892 via port 1025
+2019-12-03 01:36:15 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:44892
+2019-12-03 01:36:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:37:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:38:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:39:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:40:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:41:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:42:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:43:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:44:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:45:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:46:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:47:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:48:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:49:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:50:00 WARNING  common.py:291 unsupported addrtype 146, maybe wrong password or encryption method
+2019-12-03 01:50:00 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103036860b39cca0e079030667e3b194cce5a8f9a5d03972027bd6ed6e14148a63ef900001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:52668 via port 1025
+2019-12-03 01:50:00 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:52668
+2019-12-03 01:50:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:51:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:52:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:53:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:54:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:55:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:56:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:57:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:58:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 01:59:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:00:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:01:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:02:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:03:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:04:31 WARNING  common.py:291 unsupported addrtype 51, maybe wrong password or encryption method
+2019-12-03 02:04:31 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303135a17a5f8d0bdf6f8cbf4ecaeffb8e5b83c9873ec961ddfebf69630c03cd32d00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:41882 via port 1025
+2019-12-03 02:04:31 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:41882
+2019-12-03 02:04:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:05:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:06:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:07:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:08:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:09:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:10:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:11:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:12:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:13:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:14:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:15:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:16:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:17:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:18:14 WARNING  common.py:291 unsupported addrtype 229, maybe wrong password or encryption method
+2019-12-03 02:18:14 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303fa687997264b1798c3a384063a0e0b5e53d7dea6fb926a4da35b6afad52d7b8b00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:55436 via port 1025
+2019-12-03 02:18:14 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:55436
+2019-12-03 02:18:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:19:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:20:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:21:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:22:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:23:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:24:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:25:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:26:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:27:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:28:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:29:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:30:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:31:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:32:04 WARNING  common.py:291 unsupported addrtype 133, maybe wrong password or encryption method
+2019-12-03 02:32:04 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103031ec5ff8fc799d94e61df71d69cd34214fffe42197de198f1512ae113e538cd6f00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:35184 via port 1025
+2019-12-03 02:32:04 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:35184
+2019-12-03 02:32:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:33:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:34:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:35:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:36:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:37:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:38:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:39:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:40:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:41:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:42:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:43:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:44:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:45:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:46:14 WARNING  common.py:291 unsupported addrtype 71, maybe wrong password or encryption method
+2019-12-03 02:46:14 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303c897585460834ae94623963b08712762058dd7d4a5ebc90e697a03fd99d5a07500001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:48752 via port 1025
+2019-12-03 02:46:14 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:48752
+2019-12-03 02:46:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:47:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:48:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:49:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:50:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:51:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:52:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:53:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:54:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:55:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:56:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:57:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:58:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 02:59:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:00:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:00:46 WARNING  common.py:291 unsupported addrtype 224, maybe wrong password or encryption method
+2019-12-03 03:00:46 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 160301007501000071030352b8a40a059bc47418444ba458bcae8877f0182c12302dc50f0234909aeab07f00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:33134 via port 1025
+2019-12-03 03:00:46 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:33134
+2019-12-03 03:01:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:02:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:03:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:04:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:05:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:06:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:07:31 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:08:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:09:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:10:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:11:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:12:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:13:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:14:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:15:03 WARNING  common.py:291 unsupported addrtype 146, maybe wrong password or encryption method
+2019-12-03 03:15:03 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103030240e8610beffb467d905216b23a1f129b7ec26e0851fbb6ca4bea8422253f2200001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:59826 via port 1025
+2019-12-03 03:15:03 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:59826
+2019-12-03 03:15:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:16:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:17:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:18:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:19:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:20:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:21:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:22:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:23:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:24:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:25:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:26:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:27:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:28:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:29:15 WARNING  common.py:291 unsupported addrtype 16, maybe wrong password or encryption method
+2019-12-03 03:29:15 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303274c1eed7adfc2974949867909ee5ef414f170d5bb8e462a65c3029fd93dad2700001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:36306 via port 1025
+2019-12-03 03:29:15 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:36306
+2019-12-03 03:29:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:30:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:31:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:32:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:33:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:34:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:35:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:36:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:37:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:38:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:39:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:40:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:41:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:42:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:43:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:43:41 WARNING  common.py:291 unsupported addrtype 210, maybe wrong password or encryption method
+2019-12-03 03:43:41 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303190aec98dd152f6c03acea02512ff6c52840c764a782335245ac5afa94ba30d200001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:33994 via port 1025
+2019-12-03 03:43:41 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:33994
+2019-12-03 03:44:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:45:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:46:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:47:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:48:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:49:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:50:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:51:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:52:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:53:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:54:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:55:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:56:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:57:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:57:57 WARNING  common.py:291 unsupported addrtype 51, maybe wrong password or encryption method
+2019-12-03 03:57:57 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103039ea1e9d061dfbc2141a6c8c64f3f23f4b8bb3e062a00cfefef67ef64fc3054ae00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:55894 via port 1025
+2019-12-03 03:57:57 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:55894
+2019-12-03 03:58:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 03:59:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:00:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:01:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:02:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:03:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:04:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:05:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:06:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:07:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:08:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:09:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:10:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:11:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:11:41 WARNING  common.py:291 unsupported addrtype 118, maybe wrong password or encryption method
+2019-12-03 04:11:41 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303de6dda95807c75fba5b53e7da75e178d288aded4c754fac6d9dbfe0defef68cc00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:42354 via port 1025
+2019-12-03 04:11:41 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:42354
+2019-12-03 04:12:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:13:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:14:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:15:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:16:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:17:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:18:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:19:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:20:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:21:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:22:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:23:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:24:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:25:00 WARNING  common.py:291 unsupported addrtype 38, maybe wrong password or encryption method
+2019-12-03 04:25:00 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103034c70f606e72c15cb0a7873bc8ee4d97f96e9741bb35b3d3f39c9a4963892044700001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:46660 via port 1025
+2019-12-03 04:25:00 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:46660
+2019-12-03 04:25:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:26:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:27:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:28:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:29:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:30:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:31:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:32:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:33:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:34:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:35:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:36:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:37:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:38:06 WARNING  common.py:291 unsupported addrtype 34, maybe wrong password or encryption method
+2019-12-03 04:38:06 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103035d9f0723bad087ef06aa50f3706c0c7c35c0ff23f82fcb1d12b815d31b9828d000001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:47430 via port 1025
+2019-12-03 04:38:06 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:47430
+2019-12-03 04:38:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:39:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:40:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:41:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:42:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:43:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:44:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:45:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:46:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:47:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:48:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:49:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:50:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:51:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:52:22 WARNING  common.py:291 unsupported addrtype 5, maybe wrong password or encryption method
+2019-12-03 04:52:22 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103035fdcbf0e00ac9f72ab94f83fe25cc93e9360c882bb8310252c82f29a48c8290300001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:47630 via port 1025
+2019-12-03 04:52:22 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:47630
+2019-12-03 04:52:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:53:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:54:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:55:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:56:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:57:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:58:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 04:59:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:00:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:01:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:02:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:03:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:04:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:05:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:06:16 WARNING  common.py:291 unsupported addrtype 67, maybe wrong password or encryption method
+2019-12-03 05:06:16 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103033ec7c1d70199458b5a79506795cd9b894db110954a1d78a0b15cf75e2f5821fc00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:48704 via port 1025
+2019-12-03 05:06:16 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:48704
+2019-12-03 05:06:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:07:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:08:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:09:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:10:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:11:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:12:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:13:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:14:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:15:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:16:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:17:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:18:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:19:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:19:51 WARNING  common.py:291 unsupported addrtype 55, maybe wrong password or encryption method
+2019-12-03 05:19:51 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103033a0a55f937e12b6b612ff017ba0b5e01baf0cb0c8ef392581ef0b0c24640ac1500001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:55418 via port 1025
+2019-12-03 05:19:51 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:55418
+2019-12-03 05:20:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:21:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:22:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:23:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:24:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:25:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:26:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:27:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:28:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:29:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:30:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:31:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:32:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:33:27 WARNING  common.py:291 unsupported addrtype 198, maybe wrong password or encryption method
+2019-12-03 05:33:27 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103031f927aeac45a277f9ccfd98ebd646337cb88f417e51921d6244719afdafec6cf00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:37796 via port 1025
+2019-12-03 05:33:27 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:37796
+2019-12-03 05:33:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:34:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:35:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:36:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:37:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:38:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:39:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:40:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:41:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:42:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:43:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:44:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:45:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:46:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:46:49 WARNING  common.py:291 unsupported addrtype 161, maybe wrong password or encryption method
+2019-12-03 05:46:49 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303578f710ca1d1a73d2a38c6cb021e9f5101b33c08c9b1afe09803fcff5fec769300001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:41142 via port 1025
+2019-12-03 05:46:49 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:41142
+2019-12-03 05:47:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:48:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:49:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:50:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:51:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:51:55 INFO     speedtest_thread.py:24 Speedtest starting...You can't stop right now!
+2019-12-03 05:52:32 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:53:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:54:05 INFO     speedtest_thread.py:156 Speedtest finished
+2019-12-03 05:54:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:55:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:56:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:57:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:58:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:59:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 05:59:57 WARNING  common.py:291 unsupported addrtype 49, maybe wrong password or encryption method
+2019-12-03 05:59:57 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103030b594b63acd975320eb11655aff52847dbc065df65779da2e3099c44056f8b5800001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:43006 via port 1025
+2019-12-03 05:59:57 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:43006
+2019-12-03 06:00:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:01:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:02:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:03:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:04:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:05:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:06:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:07:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:08:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:09:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:10:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:11:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:12:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:13:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:14:05 WARNING  common.py:291 unsupported addrtype 182, maybe wrong password or encryption method
+2019-12-03 06:14:05 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103037ce1f676259f3de230e4a5e126c2f4cad014b141027cbdb9060234559a6eb0f600001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:58160 via port 1025
+2019-12-03 06:14:05 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:58160
+2019-12-03 06:14:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:15:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:16:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:17:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:18:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:19:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:20:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:21:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:22:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:23:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:24:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:25:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:26:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:27:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:27:43 WARNING  common.py:291 unsupported addrtype 133, maybe wrong password or encryption method
+2019-12-03 06:27:43 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303da21939cc855c1e2dff48a2ff384a5baa68b4981ceb12c69af74838eaca4b3bc00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:39252 via port 1025
+2019-12-03 06:27:43 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:39252
+2019-12-03 06:28:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:29:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:30:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:31:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:32:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:33:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:34:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:35:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:36:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:37:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:38:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:39:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:40:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:40:59 WARNING  common.py:291 unsupported addrtype 66, maybe wrong password or encryption method
+2019-12-03 06:40:59 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103033c1afc53edc57a51b0cf59b6f8df44cbad5f5d1685fa6179d238bc70e03d271a00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:42078 via port 1025
+2019-12-03 06:40:59 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:42078
+2019-12-03 06:41:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:42:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:43:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:44:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:45:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:46:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:47:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:48:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:49:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:50:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:51:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:52:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:53:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:54:31 WARNING  common.py:291 unsupported addrtype 196, maybe wrong password or encryption method
+2019-12-03 06:54:31 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303ac921d784b97fbca1e0d330467f184110ea6eaef2e66be37a0ff2c7ffcb6eaf200001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:49232 via port 1025
+2019-12-03 06:54:31 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:49232
+2019-12-03 06:54:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:55:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:56:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:57:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:58:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 06:59:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:00:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:01:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:02:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:03:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:04:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:05:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:06:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:07:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:08:22 WARNING  common.py:291 unsupported addrtype 115, maybe wrong password or encryption method
+2019-12-03 07:08:22 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103038126fbb87fa1e011692325a08c81295e811a8a47fae67d5fa26c2a20fd53452500001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:50344 via port 1025
+2019-12-03 07:08:22 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:50344
+2019-12-03 07:08:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:09:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:10:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:11:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:12:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:13:04 ERROR    tcprelay.py:1519 [Errno 104] Connection reset by peer
+2019-12-03 07:13:04 ERROR    tcprelay.py:1523 exception from ::ffff:113.58.235.63:35328
+2019-12-03 07:13:04 WARNING  common.py:291 unsupported addrtype 23, maybe wrong password or encryption method
+2019-12-03 07:13:04 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data eedf89e5fb8f3dca310c2a209344ef23b69557abed246d92334319340ce12fc65129e7d51361cd3054e1a84bb4219b6d133d5c18e5956e73afcc8c1fb80881041f73783e1689f968a477bb0220ef450560bb9f8b1f12f64a80167b84015eb583ffff0cf6c1c91943523e8e4f5177396c8d803ed6c456de80c50aa2451ad1c1011db7dfc9e8aae6d6f5e6dacad652e6b591e3e18e09d512a513094529f0f9d138e165ab297f5d78e4ca6ba3cfe48cde3754f83c7c97033c0f33e076cc2a3f3e693e05b5fc1fe350a4c111879f1ea3fd17c09b20aa635973167fd2f65d225f4ac3708af10044b44da8824c from ::ffff:211.97.21.61:35526 via port 1025
+2019-12-03 07:13:04 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:211.97.21.61:35526
+2019-12-03 07:13:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:14:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:15:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:16:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:17:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:18:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:19:02 ERROR    shell.py:50 [Errno 104] Connection reset by peer
+2019-12-03 07:19:02 ERROR    tcprelay.py:427 exception from ::ffff:171.14.101.192:40663
+2019-12-03 07:19:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:20:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:21:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:21:47 WARNING  common.py:291 unsupported addrtype 118, maybe wrong password or encryption method
+2019-12-03 07:21:47 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303e7b03f4e521f7851add56884c570b5721738aebe2bb93d47db4d96c952d4d24100001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:58126 via port 1025
+2019-12-03 07:21:47 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:58126
+2019-12-03 07:22:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:23:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:24:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:25:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:26:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:27:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:28:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:29:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:30:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:31:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:32:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:33:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:34:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:35:06 WARNING  common.py:291 unsupported addrtype 98, maybe wrong password or encryption method
+2019-12-03 07:35:06 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 16030100750100007103032245ba302b62b9e2fbbca84d99e9bbbb4b5d252e3393a17446a3c4f673e4072100001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:60468 via port 1025
+2019-12-03 07:35:06 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:60468
+2019-12-03 07:35:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:36:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:37:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:38:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:39:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:40:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:41:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:42:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:43:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:44:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:45:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:46:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:47:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:48:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:48:34 WARNING  common.py:291 unsupported addrtype 69, maybe wrong password or encryption method
+2019-12-03 07:48:34 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303dd2620440fa80206d8248b482897ef2b7ae349cad854b95ceca263e8d4f8bf1f00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:36088 via port 1025
+2019-12-03 07:48:34 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:36088
+2019-12-03 07:49:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:50:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:51:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:52:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:53:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:54:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:55:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:56:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:57:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:58:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 07:59:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:00:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:01:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:02:14 WARNING  common.py:291 unsupported addrtype 36, maybe wrong password or encryption method
+2019-12-03 08:02:14 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303fb8e24be381f43f48f62880bd309560c96e64179abeeaf168c3c70bf2e9e0c4f00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:38330 via port 1025
+2019-12-03 08:02:14 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:38330
+2019-12-03 08:02:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:03:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:04:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:05:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:06:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:07:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:08:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:09:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:10:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:11:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:12:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:13:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:14:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:15:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:15:43 WARNING  common.py:291 unsupported addrtype 83, maybe wrong password or encryption method
+2019-12-03 08:15:43 WARNING  tcprelay.py:635 Protocol ERROR, TCP ogn data 1603010075010000710303e501ff6c9647b0dbc14e7593d62f5d3ae9d0fa539d337770289554efd711097f00001ac02fc02bc011c007c013c009c014c00a0005002f0035c012000a0100002e000500050100000000000a00080006001700180019000b00020100000d000a00080401040302010203ff01000100 from ::ffff:51.91.212.81:44944 via port 1025
+2019-12-03 08:15:43 ERROR    tcprelay.py:1612 can not parse header when handling connection from ::ffff:51.91.212.81:44944
+2019-12-03 08:16:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:17:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:18:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:19:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:20:33 INFO     auto_block.py:89 Read hosts.deny from line 13
+2019-12-03 08:21:33 INFO     auto_block.py:89 Read hosts.deny from line 13
